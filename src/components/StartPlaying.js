@@ -4,7 +4,7 @@ import SelectedContext from "../contexts/SelectedContext";
 function StartPlaying() {
   const { selected, setSelected } = useContext(SelectedContext);
   return (
-    <div className="start-playing">
+    <div className="start-playing" id="start-playing">
       {selected.theme && selected.genre && (
         <>
           Step 3 - Play <br />
