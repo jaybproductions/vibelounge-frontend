@@ -8,7 +8,7 @@ function GenreItem({ genre }) {
       ...previousValues,
       genre: genre,
     }));
-
+    console.log(selected);
     document
       .getElementById("start-playing")
       .scrollIntoView({ behavior: "smooth" });
